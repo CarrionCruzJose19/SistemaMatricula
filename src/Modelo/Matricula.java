@@ -17,7 +17,7 @@ public class Matricula {
     
     public Matricula(String cod, Date fechaInicio, Alumno alumno,int duracionCiclo, double costoMatricula) {
         if (matcodigo == null || matcodigo.isEmpty()) {
-            DecimalFormat df = new DecimalFormat("ES0000");
+            DecimalFormat df = new DecimalFormat("MT0000");
             this.matcodigo = df.format(contador);
             contador++;
         } else {

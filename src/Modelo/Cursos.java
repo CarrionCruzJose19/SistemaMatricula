@@ -11,7 +11,7 @@ public class Cursos {
     
     public Cursos(String cursocod, Grado codigogrado, String nombre, int canthoras){
         if (cursocod == null || cursocod.isEmpty()) {
-            DecimalFormat df = new DecimalFormat("ES0000");
+            DecimalFormat df = new DecimalFormat("CR0000");
             this.cursocod = df.format(contador);
             contador++;
         } else {

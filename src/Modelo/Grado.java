@@ -10,7 +10,7 @@ public class Grado {
     
     public Grado(String codigogrado, String seccion, String nivel){
         if (codigogrado == null || codigogrado.isEmpty()) {
-            DecimalFormat df = new DecimalFormat("ES0000");
+            DecimalFormat df = new DecimalFormat("GR0000");
             this.codigogrado = df.format(contador);
             contador++;
         } else {
